@@ -17,6 +17,7 @@ SchemaMap randomized term survey tool.
 This project compiles JavaScript. In order to do this, run:
 
 ```
+cp .env.example .env
 npm install
 npm start
 ```
