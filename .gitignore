@@ -1,0 +1,5 @@
+dist
+npm-debug.log
+.DS_STORE
+.env
+.Rhistory

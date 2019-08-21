@@ -1,0 +1,48 @@
+{
+  "name": "surveyor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install -q && webpack -wp",
+    "build": "npm install -q && webpack -p",
+    "test": "karma start --single-run",
+    "code-table": "node ./scripts/code-table"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nhunzaker/surveyor.git"
+  },
+  "author": "Nate Hunzaker",
+  "license": "ISC",
+  "devDependencies": {
+    "dsv-loader": "~1.0.0",
+    "json-loader": "~0.5.1",
+    "karma": "~0.13",
+    "karma-chrome-launcher": "~0.2",
+    "karma-cli": "~0.1",
+    "karma-mocha": "~0.2",
+    "karma-nyan-reporter": "~0.2",
+    "karma-sinon-chai": "~1.1",
+    "karma-sourcemap-loader": "~0.3",
+    "karma-webpack": "~1.7",
+    "mocha": "~2.3",
+    "webpack": "~1.12",
+    "yaml-loader": "~0.1"
+  },
+  "dependencies": {
+    "add-event-listener": "~0.0.1",
+    "babel-core": "~5",
+    "babel-loader": "~5",
+    "date-now": "~1.0",
+    "dom-classes": "~0.0",
+    "js-yaml": "3.5.0",
+    "karma": "0.13.19",
+    "karma-sinon-chai": "1.1.0",
+    "mocha": "2.3.4",
+    "node-env-file": "~0.1",
+    "string-hash": "1.1.0",
+    "webpack": "1.12.10"
+  }
+}
